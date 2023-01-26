@@ -131,6 +131,7 @@ img {
 
 
 .hero {
+    max-width: 1440px;
     background: #2E2F42;
     background-image: var(--gra), url(../images/hero-bg.jpg);
     color: #FFFFFF;
@@ -214,6 +215,18 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--text-color);
+}
+
+.features-icon-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+}
+
+.features-icon {
+
 }
 
 /*------------------ SECTION 2 -------------------*/
